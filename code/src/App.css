@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 10px auto;
+  width: 90%;
+}
+
+.add-to-do {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.add-to-do input {
+  width: 103%;
+  height: 35px;
+  font-size: 20px;
+  padding: 0 3px;
+}
+
+.to-do-list ol {
+  list-style: none;
+}
+
+.to-do-list li {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.delete-to-do-button {
+  width: 80px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.to-do-created-at {
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea {
+  font-size: 14px;
+  padding: 5px;
+  resize: none;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+hr {
+  margin: 5px 0;
+}
